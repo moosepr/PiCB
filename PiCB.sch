@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -403,10 +403,10 @@ by exp-project-lbr.ulp</description>
 <smd name="P$18" x="-18" y="-6.8" dx="4" dy="0.4" layer="1"/>
 <text x="-18" y="9.4" size="1.27" layer="20">1</text>
 <text x="-18" y="-10" size="1.27" layer="20">18</text>
-<wire x1="-34.6" y1="25" x2="34.6" y2="25" width="0.127" layer="20"/>
-<wire x1="34.6" y1="25" x2="34.6" y2="-25" width="0.127" layer="20"/>
-<wire x1="34.6" y1="-25" x2="-34.6" y2="-25" width="0.127" layer="20"/>
-<wire x1="-34.6" y1="-25" x2="-34.6" y2="25" width="0.127" layer="20"/>
+<wire x1="-34.6" y1="25" x2="34.6" y2="25" width="0.127" layer="21"/>
+<wire x1="34.6" y1="25" x2="34.6" y2="-25" width="0.127" layer="21"/>
+<wire x1="34.6" y1="-25" x2="-34.6" y2="-25" width="0.127" layer="21"/>
+<wire x1="-34.6" y1="-25" x2="-34.6" y2="25" width="0.127" layer="21"/>
 <text x="-10" y="1.6" size="1.27" layer="20">ili9341-28</text>
 </package>
 </packages>
@@ -3995,28 +3995,28 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="PI1" library="RPI-Zero" deviceset="RPI-ZERO" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="IO26" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO5" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO6" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO13" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO19" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO21" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO20" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO16" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO12" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO7" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO23" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO18" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO15" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO14" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="26" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="5" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="6" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="13" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="19" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="21" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="20" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="16" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="12" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="7" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="23" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="18" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="15" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="14" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="5-2" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="5-1" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO22" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO27" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO17" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO4" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO3" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IO2" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="22" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="27" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="17" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="4" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="3" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="2" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="3-1" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="3-2" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="G1" library="wirepad" deviceset="1,6/0,8" device=""/>
@@ -4026,6 +4026,17 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="0" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="1" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="5-3" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="5-4" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="G4" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="3-3" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="3-4" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="G5" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="G6" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="G7" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="G8" library="wirepad" deviceset="1,6/0,8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4038,28 +4049,28 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="PI1" gate="G$1" x="55.88" y="27.94"/>
 <instance part="GND4" gate="1" x="-2.54" y="48.26"/>
 <instance part="GND5" gate="1" x="12.7" y="50.8"/>
-<instance part="IO26" gate="P" x="17.78" y="12.7"/>
-<instance part="IO5" gate="P" x="-2.54" y="22.86"/>
-<instance part="IO6" gate="P" x="2.54" y="20.32"/>
-<instance part="IO13" gate="P" x="7.62" y="17.78"/>
-<instance part="IO19" gate="P" x="12.7" y="15.24"/>
-<instance part="IO21" gate="P" x="86.36" y="10.16" rot="MR0"/>
-<instance part="IO20" gate="P" x="91.44" y="12.7" rot="MR0"/>
-<instance part="IO16" gate="P" x="96.52" y="15.24" rot="MR0"/>
-<instance part="IO12" gate="P" x="86.36" y="20.32" rot="MR0"/>
-<instance part="IO7" gate="P" x="86.36" y="27.94" rot="MR0"/>
-<instance part="IO23" gate="P" x="86.36" y="40.64" rot="MR0"/>
-<instance part="IO18" gate="P" x="86.36" y="45.72" rot="MR0"/>
-<instance part="IO15" gate="P" x="88.9" y="48.26" rot="MR0"/>
-<instance part="IO14" gate="P" x="83.82" y="50.8" rot="MR0"/>
+<instance part="26" gate="P" x="17.78" y="12.7"/>
+<instance part="5" gate="P" x="-2.54" y="22.86"/>
+<instance part="6" gate="P" x="2.54" y="20.32"/>
+<instance part="13" gate="P" x="7.62" y="17.78"/>
+<instance part="19" gate="P" x="12.7" y="15.24"/>
+<instance part="21" gate="P" x="86.36" y="10.16" rot="MR0"/>
+<instance part="20" gate="P" x="91.44" y="12.7" rot="MR0"/>
+<instance part="16" gate="P" x="96.52" y="15.24" rot="MR0"/>
+<instance part="12" gate="P" x="86.36" y="20.32" rot="MR0"/>
+<instance part="7" gate="P" x="86.36" y="27.94" rot="MR0"/>
+<instance part="23" gate="P" x="86.36" y="40.64" rot="MR0"/>
+<instance part="18" gate="P" x="86.36" y="45.72" rot="MR0"/>
+<instance part="15" gate="P" x="88.9" y="48.26" rot="MR0"/>
+<instance part="14" gate="P" x="83.82" y="50.8" rot="MR0"/>
 <instance part="5-2" gate="P" x="68.58" y="63.5" rot="MR90"/>
 <instance part="5-1" gate="P" x="63.5" y="63.5" rot="MR90"/>
-<instance part="IO22" gate="P" x="30.48" y="40.64"/>
-<instance part="IO27" gate="P" x="25.4" y="43.18"/>
-<instance part="IO17" gate="P" x="20.32" y="45.72"/>
-<instance part="IO4" gate="P" x="30.48" y="50.8"/>
-<instance part="IO3" gate="P" x="25.4" y="53.34"/>
-<instance part="IO2" gate="P" x="20.32" y="55.88"/>
+<instance part="22" gate="P" x="30.48" y="40.64"/>
+<instance part="27" gate="P" x="25.4" y="43.18"/>
+<instance part="17" gate="P" x="20.32" y="45.72"/>
+<instance part="4" gate="P" x="30.48" y="50.8"/>
+<instance part="3" gate="P" x="25.4" y="53.34"/>
+<instance part="2" gate="P" x="20.32" y="55.88"/>
 <instance part="3-1" gate="P" x="5.08" y="40.64" rot="R270"/>
 <instance part="3-2" gate="P" x="10.16" y="40.64" rot="R270"/>
 <instance part="G1" gate="P" x="38.1" y="78.74" rot="R270"/>
@@ -4069,6 +4080,17 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND6" gate="1" x="12.7" y="10.16" rot="R270"/>
 <instance part="GND7" gate="1" x="25.4" y="27.94" rot="R270"/>
 <instance part="GND9" gate="1" x="106.68" y="43.18" rot="R90"/>
+<instance part="0" gate="P" x="15.24" y="25.4"/>
+<instance part="1" gate="P" x="91.44" y="25.4" rot="MR0"/>
+<instance part="5-3" gate="P" x="73.66" y="63.5" rot="MR90"/>
+<instance part="5-4" gate="P" x="78.74" y="63.5" rot="MR90"/>
+<instance part="G4" gate="P" x="53.34" y="78.74" rot="R270"/>
+<instance part="3-3" gate="P" x="15.24" y="40.64" rot="R270"/>
+<instance part="3-4" gate="P" x="20.32" y="40.64" rot="R270"/>
+<instance part="G5" gate="P" x="58.42" y="78.74" rot="R270"/>
+<instance part="G6" gate="P" x="63.5" y="78.74" rot="R270"/>
+<instance part="G7" gate="P" x="68.58" y="78.74" rot="R270"/>
+<instance part="G8" gate="P" x="73.66" y="78.74" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -4095,6 +4117,21 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="G3" gate="P" pin="P"/>
 <wire x1="43.18" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="73.66" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="G4" gate="P" pin="P"/>
+<wire x1="53.34" y1="76.2" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="G5" gate="P" pin="P"/>
+<wire x1="58.42" y1="76.2" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="G6" gate="P" pin="P"/>
+<wire x1="58.42" y1="73.66" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="76.2" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="G7" gate="P" pin="P"/>
+<wire x1="63.5" y1="73.66" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="76.2" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="G8" gate="P" pin="P"/>
+<wire x1="68.58" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="73.66" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -4173,7 +4210,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="0" y1="38.1" x2="0" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="38.1" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="38.1" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="38.1" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="38.1" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
@@ -4185,6 +4224,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="5.08" y="38.1"/>
 <pinref part="3-2" gate="P" pin="P"/>
 <junction x="10.16" y="38.1"/>
+<pinref part="3-3" gate="P" pin="P"/>
+<junction x="15.24" y="38.1"/>
+<pinref part="3-4" gate="P" pin="P"/>
+<junction x="20.32" y="38.1"/>
 </segment>
 </net>
 <net name="5V0@2" class="0">
@@ -4197,27 +4240,33 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="5-1" gate="P" pin="P"/>
 <pinref part="5-2" gate="P" pin="P"/>
 <wire x1="63.5" y1="66.04" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="66.04" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="66.04" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="5-3" gate="P" pin="P"/>
+<junction x="73.66" y="66.04"/>
+<pinref part="5-4" gate="P" pin="P"/>
+<junction x="78.74" y="66.04"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO26"/>
-<pinref part="IO26" gate="P" pin="P"/>
+<pinref part="26" gate="P" pin="P"/>
 <wire x1="20.32" y1="12.7" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="IO19" gate="P" pin="P"/>
+<pinref part="19" gate="P" pin="P"/>
 <pinref part="PI1" gate="G$1" pin="GPIO19"/>
 <wire x1="15.24" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="IO13" gate="P" pin="P"/>
+<pinref part="13" gate="P" pin="P"/>
 <pinref part="PI1" gate="G$1" pin="GPIO13"/>
 <wire x1="10.16" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
 </segment>
@@ -4225,61 +4274,61 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="N$11" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO6"/>
-<pinref part="IO6" gate="P" pin="P"/>
+<pinref part="6" gate="P" pin="P"/>
 <wire x1="33.02" y1="20.32" x2="5.08" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO5"/>
-<pinref part="IO5" gate="P" pin="P"/>
+<pinref part="5" gate="P" pin="P"/>
 <wire x1="33.02" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO21"/>
-<pinref part="IO21" gate="P" pin="P"/>
+<pinref part="21" gate="P" pin="P"/>
 <wire x1="81.28" y1="10.16" x2="83.82" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO20"/>
-<pinref part="IO20" gate="P" pin="P"/>
+<pinref part="20" gate="P" pin="P"/>
 <wire x1="81.28" y1="12.7" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO16"/>
-<pinref part="IO16" gate="P" pin="P"/>
+<pinref part="16" gate="P" pin="P"/>
 <wire x1="81.28" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO12"/>
-<pinref part="IO12" gate="P" pin="P"/>
+<pinref part="12" gate="P" pin="P"/>
 <wire x1="81.28" y1="20.32" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="!CE!/GPIO7"/>
-<pinref part="IO7" gate="P" pin="P"/>
+<pinref part="7" gate="P" pin="P"/>
 <wire x1="81.28" y1="27.94" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="TXD0/GPIO14"/>
-<pinref part="IO14" gate="P" pin="P"/>
+<pinref part="14" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="IO23" gate="P" pin="P"/>
+<pinref part="23" gate="P" pin="P"/>
 <pinref part="PI1" gate="G$1" pin="GEN4/GPIO23"/>
 <wire x1="83.82" y1="40.64" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
 </segment>
@@ -4287,13 +4336,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="N$21" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO18"/>
-<pinref part="IO18" gate="P" pin="P"/>
+<pinref part="18" gate="P" pin="P"/>
 <wire x1="81.28" y1="45.72" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="IO15" gate="P" pin="P"/>
+<pinref part="15" gate="P" pin="P"/>
 <pinref part="PI1" gate="G$1" pin="RXD0/GPIO15"/>
 <wire x1="86.36" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
 </segment>
@@ -4301,18 +4350,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="N$23" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO22/GEN3"/>
-<pinref part="IO22" gate="P" pin="P"/>
+<pinref part="22" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO4/GCKL"/>
-<pinref part="IO4" gate="P" pin="P"/>
+<pinref part="4" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="IO27" gate="P" pin="P"/>
+<pinref part="27" gate="P" pin="P"/>
 <pinref part="PI1" gate="G$1" pin="GPIO27/GEN2"/>
 <wire x1="27.94" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -4320,20 +4369,20 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="N$26" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO17/GEN0"/>
-<pinref part="IO17" gate="P" pin="P"/>
+<pinref part="17" gate="P" pin="P"/>
 <wire x1="33.02" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO3/SCL1"/>
-<pinref part="IO3" gate="P" pin="P"/>
+<pinref part="3" gate="P" pin="P"/>
 <wire x1="33.02" y1="53.34" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="IO2" gate="P" pin="P"/>
+<pinref part="2" gate="P" pin="P"/>
 <pinref part="PI1" gate="G$1" pin="GPIO2/SDA1"/>
 <wire x1="22.86" y1="55.88" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -4388,6 +4437,20 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="104.14" y1="43.18" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="PI1" gate="G$1" pin="GND@8"/>
 <wire x1="104.14" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="0" gate="P" pin="P"/>
+<pinref part="PI1" gate="G$1" pin="ID_SD"/>
+<wire x1="17.78" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="1" gate="P" pin="P"/>
+<pinref part="PI1" gate="G$1" pin="ID_SC"/>
+<wire x1="88.9" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
